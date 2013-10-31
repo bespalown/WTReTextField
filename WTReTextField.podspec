@@ -1,20 +1,17 @@
 Pod::Spec.new do |s|
 	s.name = 'WTReTextField'
-	s.summary = 'Горизонтальный скролл кнопок'
-	s.homepage = 'https://github.com/BrandyMint/CA-special-offers'
+	s.summary = 'Subclass of UITextField with RegEx input validation and formatting as you type'
+	s.homepage = 'https://github.com/pieceofsummer/WTReTextField'
 	s.version  = '0.0.1'
-  	s.license  = { :type => 'MIT', :file => 'LICENSE' }
+  	s.license  = 'MIT'
 	s.author = {
-		'Denis Dubov' => 'denisdbv@gmail.com'
+		‘Alexey Skalozub’ => 'pieceofsummer@gmail.com'
 	}
 	s.source = {
-		:git => 'https://github.com/BrandyMint/CA-special-offers.git',
+		:git => 'https://github.com/pieceofsummer/WTReTextField.git',
 		:branch => 'master'
 	}
 	s.platform = :ios, '5.0'
-	s.source_files = 'CASpecialOffers/CAScrollableTab/*.{h,m}'
+	s.source_files = 'WTReTextField/*.{h,m}'
 	s.requires_arc = true
-	s.dependency 'EasyMapping', '0.4.3'
-	s.dependency 'LRResty', '0.11.0'
-	s.dependency 'MBProgressHUD'
 end
