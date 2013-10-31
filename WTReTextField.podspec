@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 	s.name = 'WTReTextField'
 	s.summary = 'Subclass of UITextField with RegEx input validation and formatting as you type'
 	s.homepage = 'https://github.com/bespalown/WTReTextField'
-	s.version  = '0.0.1'
+  	s.version = '0.0.1'
   	s.license  = 'MIT'
 	s.author = {
 		‘Viktor Bespalov  => ‘bespalown@gmail.com'
@@ -15,3 +15,4 @@ Pod::Spec.new do |s|
 	s.source_files = 'WTReTextField/*.{h,m}'
 	s.requires_arc = true
 end
+
