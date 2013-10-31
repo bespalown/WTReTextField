@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   	s.version = '0.0.1'
   	s.license  = 'MIT'
 	s.author = {
-		‘Viktor Bespalov  => ‘bespalown@gmail.com'
+		‘Viktor Bespalov’ => ‘bespalown@gmail.com'
 	}
 	s.source = {
 		:git => 'https://github.com/bespalown/WTReTextField.git',
